@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Admin Dashboard</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body style="margin:0px">
+    <div class="container">
+        <div class="navbar bg-blue-400">
+            <div class="nav-sel" id="dashboard">
+                <ion-icon name="apps-outline" class="nav-icon dashboard"></ion-icon>
+                <p class="nav-text dashboard">Dashboard</p>
+            </div>
+            <div class="nav-sel" id="home">
+                <ion-icon name="home-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Home</p>
+            </div>
+            <div class="nav-sel" id="profile">
+                <ion-icon name="person-circle-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Profile</p>
+            </div>
+            <div class="nav-sel" id="messages">
+                <ion-icon name="chatbox-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Messages</p>
+            </div>
+            <div class="nav-sel" id="tasks">
+                <ion-icon name="aperture-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Tasks</p>
+            </div>
+            <div class="nav-sel" id="communities">
+                <ion-icon name="people-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Communities</p>
+            </div>  
+            <div class="nav-sel" id="settings">
+                <ion-icon name="cog-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Settings</p>
+            </div>
+            <div class="nav-sel" id="support">
+                <ion-icon name="information-circle-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Support</p>
+            </div>
+            <div class="nav-sel" id="privacy">
+                <ion-icon name="lock-closed-outline" class="nav-icon"></ion-icon>
+                <p class="nav-text">Privacy</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header bg-gray-50 shadow-neutral-400">
+                <div class="upper-header">
+                    <img id="search-icon" src="https://cdn-icons-png.flaticon.com/128/2811/2811806.png">
+                    <input type="text" name="search-bar" id="search-bar">
+                    <img id="bell-icon" src="https://cdn-icons-png.flaticon.com/128/790/790873.png">
+                    <img id="user-icon-search" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png">
+                    <p id="user-name">First Name, Last Name</p>
+                </div>
+                <div class="lower-header">                
+                    <img id="user-icon-welcome" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png">
+                    <div id="greet">
+                        <p id="first-greet">Hi there,</p>
+                        <p id="user-name-greet">First Name, Last Name</p>
+                    </div>
+                    <button class="header-btn" id="new">New</button>
+                    <button class="header-btn" id="upload">Upload</button>
+                    <button class="header-btn" id="share">Share</button>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>My Projects</h1>
+                <div class="main-grid">
+                    <div class="card" style="grid-area:a">A</div>
+                    <div class="card" style="grid-area:b">B</div>
+                    <div class="card" style="grid-area:c">C</div>
+                    <div class="card" style="grid-area:d">D</div>
+                    <div class="card" style="grid-area:e">E</div>
+                    <div class="card" style="grid-area:f">F</div>
+                    <div class="card" style="grid-area:fl">G</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
